@@ -1,0 +1,24 @@
+name = "WeiDU TP2"
+grammar = "weidu"
+path_suffixes = ["tp2", "tph", "tpa"]
+line_comments = ["// "]
+tab_size = 2
+autoclose_before = " \t\n)]},;"
+
+[[brackets]]
+start = "("
+end = ")"
+close = true
+newline = false
+
+[[brackets]]
+start = "~"
+end = "~"
+close = false
+newline = false
+
+[[brackets]]
+start = "\""
+end = "\""
+close = false
+newline = false

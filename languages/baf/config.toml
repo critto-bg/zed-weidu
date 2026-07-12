@@ -1,0 +1,25 @@
+name = "WeiDU BAF"
+grammar = "weidu_baf"
+# The corpus mixes .baf/.BAF; Zed suffix matching is case-sensitive, so list both.
+path_suffixes = ["baf", "BAF"]
+line_comments = ["// "]
+tab_size = 2
+autoclose_before = " \t\n)],"
+
+[[brackets]]
+start = "("
+end = ")"
+close = true
+newline = false
+
+[[brackets]]
+start = "["
+end = "]"
+close = true
+newline = false
+
+[[brackets]]
+start = "\""
+end = "\""
+close = false
+newline = false

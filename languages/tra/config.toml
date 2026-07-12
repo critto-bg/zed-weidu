@@ -1,0 +1,30 @@
+name = "WeiDU TRA"
+grammar = "weidu_tra"
+path_suffixes = ["tra"]
+line_comments = ["// "]
+tab_size = 2
+autoclose_before = " \t\n)]"
+
+[[brackets]]
+start = "~"
+end = "~"
+close = false
+newline = false
+
+[[brackets]]
+start = "\""
+end = "\""
+close = false
+newline = false
+
+[[brackets]]
+start = "["
+end = "]"
+close = true
+newline = false
+
+[[brackets]]
+start = "("
+end = ")"
+close = true
+newline = false
