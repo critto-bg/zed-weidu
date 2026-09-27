@@ -1,6 +1,6 @@
 id = "weidu"
 name = "WeiDU"
-version = "0.1.0"
+version = "0.1.1"
 schema_version = 1
 authors = ["critto <el.critto@gmail.com>"]
 description = "Syntax support for WeiDU file formats (TP2/TPH/TPA, .d, .baf, and .tra) used in Infinity Engine modding."
@@ -8,20 +8,20 @@ repository = "https://github.com/critto-bg/zed-weidu"
 
 [grammars.weidu]
 repository = "https://github.com/critto-bg/tree-sitter-weidu"
-rev = "144431b06ba3d9b201606a63796c9d21e807a375"
+rev = "9e72689ceb676b99fdbd2cfec372d5f0dde4a9e9"
 path = "tree-sitter-weidu"
 
 [grammars.weidu_d]
 repository = "https://github.com/critto-bg/tree-sitter-weidu"
-rev = "144431b06ba3d9b201606a63796c9d21e807a375"
+rev = "9e72689ceb676b99fdbd2cfec372d5f0dde4a9e9"
 path = "tree-sitter-weidu-d"
 
 [grammars.weidu_baf]
 repository = "https://github.com/critto-bg/tree-sitter-weidu"
-rev = "144431b06ba3d9b201606a63796c9d21e807a375"
+rev = "9e72689ceb676b99fdbd2cfec372d5f0dde4a9e9"
 path = "tree-sitter-weidu-baf"
 
 [grammars.weidu_tra]
 repository = "https://github.com/critto-bg/tree-sitter-weidu"
-rev = "144431b06ba3d9b201606a63796c9d21e807a375"
+rev = "9e72689ceb676b99fdbd2cfec372d5f0dde4a9e9"
 path = "tree-sitter-weidu-tra"
